@@ -19,7 +19,7 @@ class Objeto {
     } else if (this.currentValue === '0' && number === ',') {
       this.currentValue = '0,';
       this.printValues();
-    } else if (this.currentValue === ',') {
+    } else if (this.currentValue === '0,') {
       this.currentValue = '0,' + number;
       this.printValues();
 
